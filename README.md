@@ -16,16 +16,18 @@ $ make run
 Alternativ approach
 ```shell
 $ java  -jar GameOfLife.jar
-``
+```
 
 ## Usage 
 ```shell
 $ java  -jar GameOfLife.jar <initial population in precent>
-``
+```
+
 ### Example
 ```shell
 $ java  -jar GameOfLife.jar 10
-``
+```
+
 At the beginning (zeroth generation) each cell has a 10 percent chance
 to be alive. The default value is 20 percent.
 
